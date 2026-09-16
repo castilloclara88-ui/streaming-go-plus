@@ -1,0 +1,14 @@
+node_modules/
+dist/
+src-tauri/target/
+.netlify/
+*.db
+*.sqlite
+*.log
+.DS_Store
+whatsapp-bot/.wwebjs_auth/
+whatsapp-bot/.wwebjs_cache/
+whatsapp-bot/session/
+.wwebjs_auth/
+.wwebjs_cache/
+

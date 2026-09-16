@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo Oficial - Control Streaming</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background-color: #0b0e17;
+      color: #f3f4f6;
+      min-height: 100vh;
+      padding-bottom: 40px;
+    }
+    header {
+      background: linear-gradient(135deg, #131722 0%, #1a103c 100%);
+      padding: 32px 20px;
+      text-align: center;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(147, 51, 234, 0.25);
+      border: 1px solid rgba(147, 51, 234, 0.5);
+      color: #d8b4fe;
+      font-size: 0.75rem;
+      font-weight: 800;
+      padding: 4px 14px;
+      border-radius: 20px;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, #ffffff 0%, #a855f7 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 8px;
+    }
+    p.subtitle {
+      color: #9ca3af;
+      font-size: 0.95rem;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 24px 16px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #131722;
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 16px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(168, 85, 247, 0.4);
+    }
+    .combo-card {
+      border: 1px solid rgba(168, 85, 247, 0.6);
+      box-shadow: 0 8px 24px rgba(124, 58, 237, 0.25);
+    }
+    .card-header {
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px;
+      position: relative;
+    }
+    .header-title {
+      font-weight: 800;
+      font-size: 1.2rem;
+      color: #ffffff;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+      text-align: center;
+    }
+    .card-body {
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+    .platform-name {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #f3f4f6;
+      margin-bottom: 12px;
+    }
+    .features-list {
+      list-style: none;
+      margin-bottom: 16px;
+      flex-grow: 1;
+    }
+    .features-list li {
+      font-size: 0.85rem;
+      color: #9ca3af;
+      margin-bottom: 6px;
+      line-height: 1.3;
+    }
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-top: 1px solid rgba(255,255,255,0.06);
+      padding-top: 12px;
+      margin-top: auto;
+    }
+    .price-box {
+      display: flex;
+      flex-direction: column;
+    }
+    .price-label {
+      font-size: 0.65rem;
+      color: #6b7280;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+    .price-val {
+      font-size: 1.15rem;
+      font-weight: 800;
+      color: #10b981;
+    }
+    .buy-btn {
+      background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.85rem;
+      padding: 8px 16px;
+      border-radius: 8px;
+      transition: opacity 0.2s;
+    }
+    .buy-btn:hover {
+      opacity: 0.9;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #4b5563;
+      font-size: 0.8rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="badge">🔥 24/7 Activo • Precios Actualizados</div>
+    <h1>Control Streaming</h1>
+    <p class="subtitle">Catálogo Oficial de Cuentas, Pantallas y Combos de Streaming</p>
+    <div style="margin-top: 16px;">
+      <a href="app.html" style="display: inline-block; background: #7c3aed; color: #ffffff; font-weight: 800; font-size: 0.85rem; padding: 10px 22px; border-radius: 12px; text-decoration: none; box-shadow: 0 4px 14px rgba(124, 58, 237, 0.4); transition: transform 0.2s;">📱 ABRIR / INSTALAR APLICACIÓN MÓVIL 🚀</a>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="grid">
+      
+      <div id="card-8" class="card combo-card">
+        <div class="card-header" style="background: linear-gradient(135deg, #e50914 0%, #800d0d 100%);">
+          <div class="header-title">Combo Dúo (Netflix + Disney+)</div>
+        </div>
+        <div class="card-body">
+          <h3 class="platform-name">Combo Dúo (Netflix + Disney+)</h3>
+          <ul class="features-list">
+            <li>• 2 Pantallas independientes (1 de cada plataforma)</li>
+          </ul>
+          <div class="card-footer">
+            <div class="price-box">
+              <span class="price-label">MENSUALIDAD</span>
+              <span class="price-val">Bs. 6.200,00</span>
+            </div>
+            <a href="https://wa.me/584248411284?text=Hola%2C%20deseo%20adquirir%20la%20plataforma%20Combo%20D%C3%BAo%20(Netflix%20%2B%20Disney%2B)" target="_blank" class="buy-btn">
+              <span>🛒 Adquirir</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    
+      <div id="card-9" class="card combo-card">
+        <div class="card-header" style="background: linear-gradient(135deg, #e50914 0%, #800d0d 100%);">
+          <div class="header-title">Combo Triple (Netflix + Disney+ + HBO Max)</div>
+        </div>
+        <div class="card-body">
+          <h3 class="platform-name">Combo Triple (Netflix + Disney+ + HBO Max)</h3>
+          <ul class="features-list">
+            <li>• 3 Pantallas independientes (1 de cada plataforma)</li>
+          </ul>
+          <div class="card-footer">
+            <div class="price-box">
+              <span class="price-label">MENSUALIDAD</span>
+              <span class="price-val">Bs. 8.000,00</span>
+            </div>
+            <a href="https://wa.me/584248411284?text=Hola%2C%20deseo%20adquirir%20la%20plataforma%20Combo%20Triple%20(Netflix%20%2B%20Disney%2B%20%2B%20HBO%20Max)" target="_blank" class="buy-btn">
+              <span>🛒 Adquirir</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    
+      <div id="card-20" class="card ">
+        <div class="card-header" style="background: linear-gradient(135deg, #00c4cc 0%, #7d2ae8 100%);">
+          <div class="header-title">Canva PRO</div>
+        </div>
+        <div class="card-body">
+          <h3 class="platform-name">Canva PRO</h3>
+          <ul class="features-list">
+            <li>• Correo aleatorio</li><li>• Correo personal</li>
+          </ul>
+          <div class="card-footer">
+            <div class="price-box">
+              <span class="price-label">MENSUALIDAD</span>
+              <span class="price-val">Bs. 1.950,00</span>
+            </div>
+            <a href="https://wa.me/584248411284?text=Hola%2C%20deseo%20adquirir%20la%20plataforma%20Canva%20PRO" target="_blank" class="buy-btn">
+              <span>🛒 Adquirir</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    
+      <div id="card-5" class="card ">
+        <div class="card-header" style="background: linear-gradient(135deg, #ff6b00 0%, #994000 100%);">
+          <div class="header-title">Crunchyroll</div>
+        </div>
+        <div class="card-body">
+          <h3 class="platform-name">Crunchyroll</h3>
+          <ul class="features-list">
+            <li>• 1 Pantalla | Plan Megafan | Anime sin límites ni publicidad</li>
+          </ul>
+          <div class="card-footer">
+            <div class="price-box">
+              <span class="price-label">MENSUALIDAD</span>
+              <span class="price-val">Bs. 1.900,00</span>
+            </div>
+            <a href="https://wa.me/584248411284?text=Hola%2C%20deseo%20adquirir%20la%20plataforma%20Crunchyroll" target="_blank" class="buy-btn">
+              <span>🛒 Adquirir</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    
+      <div id="card-2" class="card ">
+        <div class="card-header" style="background: linear-gradient(135deg, #040a2b 0%, #113ccf 100%);">
+          <div class="header-title">Disney+</div>
+        </div>
+        <div class="card-body">
+          <h3 class="platform-name">Disney+</h3>
+          <ul class="features-list">
+            <li>• 1 Pantalla | Calidad 4K | Audio Dolby Atmos</li>
+          </ul>
+          <div class="card-footer">
+            <div class="price-box">
+              <span class="price-label">MENSUALIDAD</span>
+              <span class="price-val">Bs. 3.200,00</span>
+            </div>
+            <a href="https://wa.me/584248411284?text=Hola%2C%20deseo%20adquirir%20la%20plataforma%20Disney%2B" target="_blank" class="buy-btn">
+              <span>🛒 Adquirir</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    
+      <div id="card-19" class="card ">
+        <div class="card-header" style="background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);">
+          <div class="header-title">Flujo TV</div>
+        </div>
+        <div class="card-body">
+          <h3 class="platform-name">Flujo TV</h3>
+          <ul class="features-list">
+            <li>• Cuenta Completa | Canales premium | Películas y series</li>
+          </ul>
+          <div class="card-footer">
+            <div class="price-box">
+              <span class="price-label">MENSUALIDAD</span>
+              <span class="price-val">Bs. 4.600,00</span>
+            </div>
+            <a href="https://wa.me/584248411284?text=Hola%2C%20deseo%20adquirir%20la%20plataforma%20Flujo%20TV" target="_blank" class="buy-btn">
+              <span>🛒 Adquirir</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    
+      <div id="card-3" class="card ">
+        <div class="card-header" style="background: #0b0e17; border-bottom: 2px solid #7928ca;">
+          <div class="header-title">HBO Max</div>
+        </div>
+        <div class="card-body">
+          <h3 class="platform-name">HBO Max</h3>
+          <ul class="features-list">
+            <li>• 1 Pantalla | Calidad 4K | Warner Bros &amp; Max Originals</li>
+          </ul>
+          <div class="card-footer">
+            <div class="price-box">
+              <span class="price-label">MENSUALIDAD</span>
+              <span class="price-val">Bs. 2.250,00</span>
+            </div>
+            <a href="https://wa.me/584248411284?text=Hola%2C%20deseo%20adquirir%20la%20plataforma%20HBO%20Max" target="_blank" class="buy-btn">
+              <span>🛒 Adquirir</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    
+      <div id="card-14" class="card ">
+        <div class="card-header" style="background: linear-gradient(135deg, #ff2a5f 0%, #880022 100%);">
+          <div class="header-title">Magis TV</div>
+        </div>
+        <div class="card-body">
+          <h3 class="platform-name">Magis TV</h3>
+          <ul class="features-list">
+            <li>• Cuenta Completa | Canales en vivo | Películas y series</li>
+          </ul>
+          <div class="card-footer">
+            <div class="price-box">
+              <span class="price-label">MENSUALIDAD</span>
+              <span class="price-val">Bs. 3.000,00</span>
+            </div>
+            <a href="https://wa.me/584248411284?text=Hola%2C%20deseo%20adquirir%20la%20plataforma%20Magis%20TV" target="_blank" class="buy-btn">
+              <span>🛒 Adquirir</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    
+      <div id="card-1" class="card ">
+        <div class="card-header" style="background: linear-gradient(135deg, #e50914 0%, #800d0d 100%);">
+          <div class="header-title">Netflix</div>
+        </div>
+        <div class="card-body">
+          <h3 class="platform-name">Netflix</h3>
+          <ul class="features-list">
+            <li>• 1 Pantalla | Ultra HD 4K | Dispositivos múltiples</li>
+          </ul>
+          <div class="card-footer">
+            <div class="price-box">
+              <span class="price-label">MENSUALIDAD</span>
+              <span class="price-val">Bs. 3.720,00</span>
+            </div>
+            <a href="https://wa.me/584248411284?text=Hola%2C%20deseo%20adquirir%20la%20plataforma%20Netflix" target="_blank" class="buy-btn">
+              <span>🛒 Adquirir</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    
+      <div id="card-12" class="card ">
+        <div class="card-header" style="background: linear-gradient(135deg, #e50914 0%, #800d0d 100%);">
+          <div class="header-title">Netflix Personalizado</div>
+        </div>
+        <div class="card-body">
+          <h3 class="platform-name">Netflix Personalizado</h3>
+          <ul class="features-list">
+            <li>• Cuenta Completa | Personalizada con tu correo o perfil exclusivo</li>
+          </ul>
+          <div class="card-footer">
+            <div class="price-box">
+              <span class="price-label">MENSUALIDAD</span>
+              <span class="price-val">Bs. 4.900,00</span>
+            </div>
+            <a href="https://wa.me/584248411284?text=Hola%2C%20deseo%20adquirir%20la%20plataforma%20Netflix%20Personalizado" target="_blank" class="buy-btn">
+              <span>🛒 Adquirir</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    
+      <div id="card-13" class="card ">
+        <div class="card-header" style="background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);">
+          <div class="header-title">Paramount+</div>
+        </div>
+        <div class="card-body">
+          <h3 class="platform-name">Paramount+</h3>
+          <ul class="features-list">
+            <li>• 1 Pantalla | Calidad HD/4K | Series de Showtime e infantiles</li>
+          </ul>
+          <div class="card-footer">
+            <div class="price-box">
+              <span class="price-label">MENSUALIDAD</span>
+              <span class="price-val">Bs. 1.900,00</span>
+            </div>
+            <a href="https://wa.me/584248411284?text=Hola%2C%20deseo%20adquirir%20la%20plataforma%20Paramount%2B" target="_blank" class="buy-btn">
+              <span>🛒 Adquirir</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    
+      <div id="card-4" class="card ">
+        <div class="card-header" style="background: linear-gradient(135deg, #00a8e1 0%, #004d80 100%);">
+          <div class="header-title">Prime Video</div>
+        </div>
+        <div class="card-body">
+          <h3 class="platform-name">Prime Video</h3>
+          <ul class="features-list">
+            <li>• 1 Pantalla | Calidad HD | Contenido Amazon Originals</li>
+          </ul>
+          <div class="card-footer">
+            <div class="price-box">
+              <span class="price-label">MENSUALIDAD</span>
+              <span class="price-val">Bs. 2.000,00</span>
+            </div>
+            <a href="https://wa.me/584248411284?text=Hola%2C%20deseo%20adquirir%20la%20plataforma%20Prime%20Video" target="_blank" class="buy-btn">
+              <span>🛒 Adquirir</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    
+      <div id="card-6" class="card ">
+        <div class="card-header" style="background: linear-gradient(135deg, #1ed760 0%, #10662d 100%);">
+          <div class="header-title">Spotify</div>
+        </div>
+        <div class="card-body">
+          <h3 class="platform-name">Spotify</h3>
+          <ul class="features-list">
+            <li>• 1 Cuenta Premium completa | Sin anuncios | Música offline</li>
+          </ul>
+          <div class="card-footer">
+            <div class="price-box">
+              <span class="price-label">MENSUALIDAD</span>
+              <span class="price-val">Bs. 2.000,00</span>
+            </div>
+            <a href="https://wa.me/584248411284?text=Hola%2C%20deseo%20adquirir%20la%20plataforma%20Spotify" target="_blank" class="buy-btn">
+              <span>🛒 Adquirir</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    
+      <div id="card-16" class="card ">
+        <div class="card-header" style="background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);">
+          <div class="header-title">Telelatino</div>
+        </div>
+        <div class="card-body">
+          <h3 class="platform-name">Telelatino</h3>
+          <ul class="features-list">
+            <li>• 1 Pantalla | Canales latinos en vivo | Películas y series</li>
+          </ul>
+          <div class="card-footer">
+            <div class="price-box">
+              <span class="price-label">MENSUALIDAD</span>
+              <span class="price-val">Bs. 2.000,00</span>
+            </div>
+            <a href="https://wa.me/584248411284?text=Hola%2C%20deseo%20adquirir%20la%20plataforma%20Telelatino" target="_blank" class="buy-btn">
+              <span>🛒 Adquirir</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    
+      <div id="card-17" class="card ">
+        <div class="card-header" style="background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);">
+          <div class="header-title">Universal Plus</div>
+        </div>
+        <div class="card-body">
+          <h3 class="platform-name">Universal Plus</h3>
+          <ul class="features-list">
+            <li>• 1 Pantalla | Canales premium de Universal | Series exclusivas</li>
+          </ul>
+          <div class="card-footer">
+            <div class="price-box">
+              <span class="price-label">MENSUALIDAD</span>
+              <span class="price-val">Bs. 2.500,00</span>
+            </div>
+            <a href="https://wa.me/584248411284?text=Hola%2C%20deseo%20adquirir%20la%20plataforma%20Universal%20Plus" target="_blank" class="buy-btn">
+              <span>🛒 Adquirir</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    
+      <div id="card-18" class="card ">
+        <div class="card-header" style="background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);">
+          <div class="header-title">Viki Rakuten</div>
+        </div>
+        <div class="card-body">
+          <h3 class="platform-name">Viki Rakuten</h3>
+          <ul class="features-list">
+            <li>• 1 Pantalla | El mejor contenido de dramas coreanos y asiáticos</li>
+          </ul>
+          <div class="card-footer">
+            <div class="price-box">
+              <span class="price-label">MENSUALIDAD</span>
+              <span class="price-val">Bs. 1.800,00</span>
+            </div>
+            <a href="https://wa.me/584248411284?text=Hola%2C%20deseo%20adquirir%20la%20plataforma%20Viki%20Rakuten" target="_blank" class="buy-btn">
+              <span>🛒 Adquirir</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    
+      <div id="card-7" class="card ">
+        <div class="card-header" style="background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);">
+          <div class="header-title">Vix+</div>
+        </div>
+        <div class="card-body">
+          <h3 class="platform-name">Vix+</h3>
+          <ul class="features-list">
+            <li>• 3 Dispositivos en simultáneo | Novelas, series y fútbol en vivo</li>
+          </ul>
+          <div class="card-footer">
+            <div class="price-box">
+              <span class="price-label">MENSUALIDAD</span>
+              <span class="price-val">Bs. 1.900,00</span>
+            </div>
+            <a href="https://wa.me/584248411284?text=Hola%2C%20deseo%20adquirir%20la%20plataforma%20Vix%2B" target="_blank" class="buy-btn">
+              <span>🛒 Adquirir</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    
+      <div id="card-15" class="card ">
+        <div class="card-header" style="background: linear-gradient(135deg, #ff0000 0%, #880000 100%);">
+          <div class="header-title">YouTube Premium</div>
+        </div>
+        <div class="card-body">
+          <h3 class="platform-name">YouTube Premium</h3>
+          <ul class="features-list">
+            <li>• 1 Cuenta Premium | Sin anuncios | Reproducción en segundo plano</li>
+          </ul>
+          <div class="card-footer">
+            <div class="price-box">
+              <span class="price-label">MENSUALIDAD</span>
+              <span class="price-val">Bs. 1.500,00</span>
+            </div>
+            <a href="https://wa.me/584248411284?text=Hola%2C%20deseo%20adquirir%20la%20plataforma%20YouTube%20Premium" target="_blank" class="buy-btn">
+              <span>🛒 Adquirir</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+
+  <footer>
+    <p>© Control Streaming — Catálogo en vivo 24/7</p>
+  </footer>
+</body>
+</html>

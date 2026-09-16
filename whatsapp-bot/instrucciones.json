@@ -1,0 +1,48 @@
+{
+  "Netflix": [
+    "👉 1. Abre Netflix y escribe el correo y contraseña provistos.",
+    "👉 2. Elige tu perfil asignado según tu número.",
+    "👉 3. Ingresa tu código PIN de seguridad.",
+    "🚫 NOTA: No cambies los datos de la cuenta ni utilices perfiles de otros clientes."
+  ],
+  "Disney+": [
+    "👉 1. Abre la app de Disney+ e ingresa las credenciales provistas.",
+    "👉 2. Selecciona tu perfil correspondiente.",
+    "🚫 NOTA: Prohibido cambiar nombres de perfiles, crear nuevos perfiles o alterar la contraseña."
+  ],
+  "HBO Max": [
+    "👉 1. Abre Max (HBO Max) e ingresa con el correo y contraseña provistos.",
+    "👉 2. Entra a tu perfil asignado.",
+    "🚫 NOTA: Por favor, respeta los perfiles ajenos."
+  ],
+  "Prime Video": [
+    "👉 1. Entra a la aplicación de Amazon Prime Video.",
+    "👉 2. Escribe el correo y contraseña provistos.",
+    "👉 3. Selecciona tu perfil asignado."
+  ],
+  "Paramount+": [
+    "👉 1. Abre la app de Paramount+.",
+    "👉 2. Ingresa con el correo y contraseña provistos.",
+    "👉 3. Entra a tu perfil asignado."
+  ],
+  "Spotify": [
+    "👉 1. Inicia sesión en Spotify con las credenciales provistas.",
+    "🚫 NOTA: No utilices la cuenta en más de un dispositivo de forma simultánea."
+  ],
+  "Canva": [
+    "👉 1. Entra a Canva.com o la app e ingresa con el correo y clave provistos.",
+    "👉 2. Asegúrate de estar dentro del equipo/diseño compartido."
+  ],
+  "YouTube Premium": [
+    "👉 1. Abre YouTube.",
+    "👉 2. Asegúrate de iniciar sesión con la cuenta de correo invitada al grupo familiar."
+  ],
+  "Magis TV": [
+    "👉 1. Descarga e instala Magis TV en tu TV o celular.",
+    "👉 2. Introduce el correo/usuario y clave asignados en la pantalla de inicio."
+  ],
+  "Telelatino": [
+    "👉 1. Abre la app de Telelatino.",
+    "👉 2. Ingresa con el correo y contraseña provistos."
+  ]
+}

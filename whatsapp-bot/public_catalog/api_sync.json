@@ -1,0 +1,810 @@
+{
+  "cuentas": [
+    {
+      "id": 1,
+      "cuenta": "STREAMING",
+      "contrasena": "206040",
+      "proveedor": "casc",
+      "telefono": "ascas",
+      "fecha": "30/08/2026",
+      "plataforma": "Netflix",
+      "mensaje_enviado": 0
+    },
+    {
+      "id": 7,
+      "cuenta": "straeamingplusgo107@gmail.com",
+      "contrasena": "Color.0809",
+      "proveedor": "wow",
+      "telefono": "5842421648",
+      "fecha": "29/08/2026",
+      "plataforma": "Netflix",
+      "mensaje_enviado": 0
+    },
+    {
+      "id": 9,
+      "cuenta": "DSFSDV",
+      "contrasena": "VSDV",
+      "proveedor": "DVSD",
+      "telefono": "SDVSDV",
+      "fecha": "02/08/2026",
+      "plataforma": "HBO Max",
+      "mensaje_enviado": 0
+    },
+    {
+      "id": 10,
+      "cuenta": "casc",
+      "contrasena": "",
+      "proveedor": "ascas",
+      "telefono": "",
+      "fecha": "4/8/2026",
+      "plataforma": "Canva",
+      "mensaje_enviado": 0
+    },
+    {
+      "id": 11,
+      "cuenta": "hbckasjuhkasc",
+      "contrasena": "cascascas",
+      "proveedor": "clara",
+      "telefono": "584122601661",
+      "fecha": "11/8/2026",
+      "plataforma": "Paramount+",
+      "mensaje_enviado": 0
+    },
+    {
+      "id": 12,
+      "cuenta": "guyf",
+      "contrasena": "tfukfuy",
+      "proveedor": "tfkyfkyu",
+      "telefono": "584122601661",
+      "fecha": "12/8/2026",
+      "plataforma": "Netflix Personalizada",
+      "mensaje_enviado": 0
+    },
+    {
+      "id": 13,
+      "cuenta": "claraygasgd",
+      "contrasena": "uuiglu",
+      "proveedor": "",
+      "telefono": "",
+      "fecha": "",
+      "plataforma": "Netflix Personalizada",
+      "mensaje_enviado": 0
+    },
+    {
+      "id": 14,
+      "cuenta": "gjugdnj",
+      "contrasena": "hdfhfd",
+      "proveedor": "hdfhfdh",
+      "telefono": "584129483293",
+      "fecha": "hhdfhd",
+      "plataforma": "Flujo TV",
+      "mensaje_enviado": 0
+    },
+    {
+      "id": 15,
+      "cuenta": "l{kl{",
+      "contrasena": "",
+      "proveedor": "{kl{k",
+      "telefono": "ñjkñjk",
+      "fecha": "ñkjñkj",
+      "plataforma": "Magis TV",
+      "mensaje_enviado": 0
+    },
+    {
+      "id": 16,
+      "cuenta": "fafaf",
+      "contrasena": "dfsdgsd",
+      "proveedor": "gsdgvsdg",
+      "telefono": "gsdgsd",
+      "fecha": "sdgsdg",
+      "plataforma": "Disney+",
+      "mensaje_enviado": 0
+    },
+    {
+      "id": 17,
+      "cuenta": "vgsvb",
+      "contrasena": "fbdfbs",
+      "proveedor": "sbsdbv",
+      "telefono": "sbsdb",
+      "fecha": "sdbsdb",
+      "plataforma": "Netflix",
+      "mensaje_enviado": 0
+    }
+  ],
+  "perfiles": [
+    {
+      "id": 1,
+      "id_madre": 1,
+      "num_perfil": "1",
+      "nombre": "ANA",
+      "telefono": "das",
+      "pin": "caca",
+      "fecha_pago": "02/08/2026",
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 2,
+      "id_madre": 1,
+      "num_perfil": "2",
+      "nombre": "vczv (PRUEBA)",
+      "telefono": "dbds",
+      "pin": "bdbzc",
+      "fecha_pago": "02/09/2026",
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 3,
+      "id_madre": 1,
+      "num_perfil": "3",
+      "nombre": "Dalys Fariñas",
+      "telefono": "584160985634",
+      "pin": "sdgsdg",
+      "fecha_pago": "17/7/2026",
+      "mensaje_enviado": 0,
+      "origen": "WhatsApp"
+    },
+    {
+      "id": 4,
+      "id_madre": 1,
+      "num_perfil": "4",
+      "nombre": "Dalys Fariñas",
+      "telefono": "584160985634",
+      "pin": "2050",
+      "fecha_pago": "16/7/2026",
+      "mensaje_enviado": 0,
+      "origen": "Recomendado"
+    },
+    {
+      "id": 5,
+      "id_madre": 1,
+      "num_perfil": "5",
+      "nombre": "Hsunss",
+      "telefono": "",
+      "pin": "gcdtufk",
+      "fecha_pago": "28/08/2026",
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 6,
+      "id_madre": 4,
+      "num_perfil": "1",
+      "nombre": "clara",
+      "telefono": "584122601661",
+      "pin": "2060",
+      "fecha_pago": "29/6/2026",
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 7,
+      "id_madre": 4,
+      "num_perfil": "2",
+      "nombre": null,
+      "telefono": null,
+      "pin": null,
+      "fecha_pago": null,
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 8,
+      "id_madre": 4,
+      "num_perfil": "3",
+      "nombre": null,
+      "telefono": null,
+      "pin": null,
+      "fecha_pago": null,
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 9,
+      "id_madre": 4,
+      "num_perfil": "4",
+      "nombre": null,
+      "telefono": null,
+      "pin": null,
+      "fecha_pago": null,
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 10,
+      "id_madre": 4,
+      "num_perfil": "5",
+      "nombre": null,
+      "telefono": null,
+      "pin": null,
+      "fecha_pago": null,
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 11,
+      "id_madre": 6,
+      "num_perfil": "1",
+      "nombre": null,
+      "telefono": null,
+      "pin": null,
+      "fecha_pago": null,
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 12,
+      "id_madre": 6,
+      "num_perfil": "2",
+      "nombre": null,
+      "telefono": null,
+      "pin": null,
+      "fecha_pago": null,
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 13,
+      "id_madre": 6,
+      "num_perfil": "3",
+      "nombre": null,
+      "telefono": null,
+      "pin": null,
+      "fecha_pago": null,
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 14,
+      "id_madre": 6,
+      "num_perfil": "4",
+      "nombre": null,
+      "telefono": null,
+      "pin": null,
+      "fecha_pago": null,
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 15,
+      "id_madre": 6,
+      "num_perfil": "5",
+      "nombre": null,
+      "telefono": null,
+      "pin": null,
+      "fecha_pago": null,
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 16,
+      "id_madre": 7,
+      "num_perfil": "1",
+      "nombre": "cac",
+      "telefono": "das",
+      "pin": "caca",
+      "fecha_pago": "02/08/2026",
+      "mensaje_enviado": 1,
+      "origen": ""
+    },
+    {
+      "id": 17,
+      "id_madre": 7,
+      "num_perfil": "2",
+      "nombre": "Diego Gonzalez",
+      "telefono": "584126644085",
+      "pin": "5151",
+      "fecha_pago": "25/07/2026",
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 18,
+      "id_madre": 7,
+      "num_perfil": "3",
+      "nombre": "Dalys Fariñas",
+      "telefono": "584160985634",
+      "pin": "sdgsdg",
+      "fecha_pago": "17/7/2026",
+      "mensaje_enviado": 0,
+      "origen": "WhatsApp"
+    },
+    {
+      "id": 19,
+      "id_madre": 7,
+      "num_perfil": "4",
+      "nombre": "gergreg",
+      "telefono": "erherherh",
+      "pin": "erherher",
+      "fecha_pago": "02/07/2026",
+      "mensaje_enviado": 1,
+      "origen": ""
+    },
+    {
+      "id": 20,
+      "id_madre": 7,
+      "num_perfil": "5",
+      "nombre": "Hsunss",
+      "telefono": "",
+      "pin": "gcdtufk",
+      "fecha_pago": "28/08/2026",
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 21,
+      "id_madre": 9,
+      "num_perfil": "1",
+      "nombre": "",
+      "telefono": "",
+      "pin": "2060",
+      "fecha_pago": "",
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 22,
+      "id_madre": 9,
+      "num_perfil": "2",
+      "nombre": "vczv (PRUEBA)",
+      "telefono": "dbds",
+      "pin": "bdbzc",
+      "fecha_pago": "02/09/2026",
+      "mensaje_enviado": 1,
+      "origen": ""
+    },
+    {
+      "id": 23,
+      "id_madre": 9,
+      "num_perfil": "3",
+      "nombre": "",
+      "telefono": "",
+      "pin": "dsfsdf",
+      "fecha_pago": "",
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 24,
+      "id_madre": 9,
+      "num_perfil": "4",
+      "nombre": "Dalys Fariñas",
+      "telefono": "584160985634",
+      "pin": "2050",
+      "fecha_pago": "16/7/2026",
+      "mensaje_enviado": 0,
+      "origen": "Recomendado"
+    },
+    {
+      "id": 25,
+      "id_madre": 9,
+      "num_perfil": "5",
+      "nombre": null,
+      "telefono": null,
+      "pin": null,
+      "fecha_pago": null,
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 26,
+      "id_madre": 11,
+      "num_perfil": "1",
+      "nombre": "",
+      "telefono": "",
+      "pin": "",
+      "fecha_pago": "",
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 27,
+      "id_madre": 11,
+      "num_perfil": "2",
+      "nombre": "",
+      "telefono": "",
+      "pin": "",
+      "fecha_pago": "",
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 28,
+      "id_madre": 11,
+      "num_perfil": "3",
+      "nombre": "",
+      "telefono": "",
+      "pin": "",
+      "fecha_pago": "",
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 29,
+      "id_madre": 11,
+      "num_perfil": "4",
+      "nombre": "",
+      "telefono": "",
+      "pin": "",
+      "fecha_pago": "",
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 30,
+      "id_madre": 11,
+      "num_perfil": "5",
+      "nombre": "",
+      "telefono": "",
+      "pin": "",
+      "fecha_pago": "",
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 31,
+      "id_madre": 12,
+      "num_perfil": "Extra",
+      "nombre": "dtdt",
+      "telefono": "584122601661",
+      "pin": "ytdy",
+      "fecha_pago": "12/08/2026",
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 32,
+      "id_madre": 13,
+      "num_perfil": "Extra",
+      "nombre": "",
+      "telefono": "",
+      "pin": "igiu",
+      "fecha_pago": "",
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 33,
+      "id_madre": 14,
+      "num_perfil": "1",
+      "nombre": "",
+      "telefono": "",
+      "pin": "",
+      "fecha_pago": "",
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 34,
+      "id_madre": 14,
+      "num_perfil": "2",
+      "nombre": "",
+      "telefono": "",
+      "pin": "",
+      "fecha_pago": "",
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 35,
+      "id_madre": 14,
+      "num_perfil": "3",
+      "nombre": "",
+      "telefono": "",
+      "pin": "",
+      "fecha_pago": "",
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 36,
+      "id_madre": 14,
+      "num_perfil": "4",
+      "nombre": "",
+      "telefono": "",
+      "pin": "",
+      "fecha_pago": "",
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 37,
+      "id_madre": 14,
+      "num_perfil": "5",
+      "nombre": "",
+      "telefono": "",
+      "pin": "",
+      "fecha_pago": "",
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 38,
+      "id_madre": 16,
+      "num_perfil": "1",
+      "nombre": "",
+      "telefono": "",
+      "pin": "",
+      "fecha_pago": "",
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 39,
+      "id_madre": 16,
+      "num_perfil": "2",
+      "nombre": "",
+      "telefono": "",
+      "pin": "",
+      "fecha_pago": "",
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 40,
+      "id_madre": 16,
+      "num_perfil": "3",
+      "nombre": "",
+      "telefono": "",
+      "pin": "",
+      "fecha_pago": "",
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 41,
+      "id_madre": 16,
+      "num_perfil": "4",
+      "nombre": "",
+      "telefono": "",
+      "pin": "",
+      "fecha_pago": "",
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 42,
+      "id_madre": 16,
+      "num_perfil": "5",
+      "nombre": "",
+      "telefono": "",
+      "pin": "",
+      "fecha_pago": "",
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 43,
+      "id_madre": 16,
+      "num_perfil": "6",
+      "nombre": "",
+      "telefono": "",
+      "pin": "",
+      "fecha_pago": "",
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 44,
+      "id_madre": 16,
+      "num_perfil": "7",
+      "nombre": "",
+      "telefono": "",
+      "pin": "",
+      "fecha_pago": "",
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 45,
+      "id_madre": 17,
+      "num_perfil": "1",
+      "nombre": "",
+      "telefono": "",
+      "pin": "",
+      "fecha_pago": "",
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 46,
+      "id_madre": 17,
+      "num_perfil": "2",
+      "nombre": "",
+      "telefono": "",
+      "pin": "",
+      "fecha_pago": "",
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 47,
+      "id_madre": 17,
+      "num_perfil": "3",
+      "nombre": "",
+      "telefono": "",
+      "pin": "",
+      "fecha_pago": "",
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 48,
+      "id_madre": 17,
+      "num_perfil": "4",
+      "nombre": "",
+      "telefono": "",
+      "pin": "",
+      "fecha_pago": "",
+      "mensaje_enviado": 0,
+      "origen": ""
+    },
+    {
+      "id": 49,
+      "id_madre": 17,
+      "num_perfil": "5",
+      "nombre": "",
+      "telefono": "",
+      "pin": "",
+      "fecha_pago": "",
+      "mensaje_enviado": 0,
+      "origen": ""
+    }
+  ],
+  "clientes_nuevos": [
+    {
+      "id": 3,
+      "nombre": "Vanessa castillo Clara",
+      "telefono": "",
+      "origen": "Recomendado",
+      "fecha": "25/07/2026"
+    }
+  ],
+  "catalogo": [
+    {
+      "id": 8,
+      "plataforma": "Combo Dúo (Netflix + Disney+)",
+      "precio": 6200,
+      "caracteristicas": "2 Pantallas independientes (1 de cada plataforma)",
+      "categoria": "Combo",
+      "imagen": "combo2,netflix,hbo"
+    },
+    {
+      "id": 9,
+      "plataforma": "Combo Triple (Netflix + Disney+ + HBO Max)",
+      "precio": 8000,
+      "caracteristicas": "3 Pantallas independientes (1 de cada plataforma)",
+      "categoria": "Combo",
+      "imagen": "combo3"
+    },
+    {
+      "id": 20,
+      "plataforma": "Canva PRO",
+      "precio": 1950,
+      "caracteristicas": "Correo aleatorio\nCorreo personal",
+      "categoria": "Individual",
+      "imagen": ""
+    },
+    {
+      "id": 5,
+      "plataforma": "Crunchyroll",
+      "precio": 1900,
+      "caracteristicas": "1 Pantalla | Plan Megafan | Anime sin límites ni publicidad",
+      "categoria": "Individual",
+      "imagen": "crunchyroll"
+    },
+    {
+      "id": 2,
+      "plataforma": "Disney+",
+      "precio": 3200,
+      "caracteristicas": "1 Pantalla | Calidad 4K | Audio Dolby Atmos",
+      "categoria": "Individual",
+      "imagen": "disney"
+    },
+    {
+      "id": 19,
+      "plataforma": "Flujo TV",
+      "precio": 4600,
+      "caracteristicas": "Cuenta Completa | Canales premium | Películas y series",
+      "categoria": "Individual",
+      "imagen": "flujotv"
+    },
+    {
+      "id": 3,
+      "plataforma": "HBO Max",
+      "precio": 2250,
+      "caracteristicas": "1 Pantalla | Calidad 4K | Warner Bros & Max Originals",
+      "categoria": "Individual",
+      "imagen": "hbo"
+    },
+    {
+      "id": 14,
+      "plataforma": "Magis TV",
+      "precio": 3000,
+      "caracteristicas": "Cuenta Completa | Canales en vivo | Películas y series",
+      "categoria": "Individual",
+      "imagen": "magis"
+    },
+    {
+      "id": 1,
+      "plataforma": "Netflix",
+      "precio": 3720,
+      "caracteristicas": "1 Pantalla | Ultra HD 4K | Dispositivos múltiples",
+      "categoria": "Individual",
+      "imagen": "netflix"
+    },
+    {
+      "id": 12,
+      "plataforma": "Netflix Personalizado",
+      "precio": 4900,
+      "caracteristicas": "Cuenta Completa | Personalizada con tu correo o perfil exclusivo",
+      "categoria": "Individual",
+      "imagen": "netflix_personalizado"
+    },
+    {
+      "id": 13,
+      "plataforma": "Paramount+",
+      "precio": 1900,
+      "caracteristicas": "1 Pantalla | Calidad HD/4K | Series de Showtime e infantiles",
+      "categoria": "Individual",
+      "imagen": "paramount"
+    },
+    {
+      "id": 4,
+      "plataforma": "Prime Video",
+      "precio": 2000,
+      "caracteristicas": "1 Pantalla | Calidad HD | Contenido Amazon Originals",
+      "categoria": "Individual",
+      "imagen": "prime"
+    },
+    {
+      "id": 6,
+      "plataforma": "Spotify",
+      "precio": 2000,
+      "caracteristicas": "1 Cuenta Premium completa | Sin anuncios | Música offline",
+      "categoria": "Individual",
+      "imagen": "spotify"
+    },
+    {
+      "id": 16,
+      "plataforma": "Telelatino",
+      "precio": 2000,
+      "caracteristicas": "1 Pantalla | Canales latinos en vivo | Películas y series",
+      "categoria": "Individual",
+      "imagen": "telelatino"
+    },
+    {
+      "id": 17,
+      "plataforma": "Universal Plus",
+      "precio": 2500,
+      "caracteristicas": "1 Pantalla | Canales premium de Universal | Series exclusivas",
+      "categoria": "Individual",
+      "imagen": "universal"
+    },
+    {
+      "id": 18,
+      "plataforma": "Viki Rakuten",
+      "precio": 1800,
+      "caracteristicas": "1 Pantalla | El mejor contenido de dramas coreanos y asiáticos",
+      "categoria": "Individual",
+      "imagen": "viki"
+    },
+    {
+      "id": 7,
+      "plataforma": "Vix+",
+      "precio": 1900,
+      "caracteristicas": "3 Dispositivos en simultáneo | Novelas, series y fútbol en vivo",
+      "categoria": "Individual",
+      "imagen": "vix"
+    },
+    {
+      "id": 15,
+      "plataforma": "YouTube Premium",
+      "precio": 1500,
+      "caracteristicas": "1 Cuenta Premium | Sin anuncios | Reproducción en segundo plano",
+      "categoria": "Individual",
+      "imagen": "youtube"
+    }
+  ]
+}

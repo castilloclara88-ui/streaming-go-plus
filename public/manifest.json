@@ -1,0 +1,21 @@
+{
+  "name": "Control Streaming",
+  "short_name": "ControlStreaming",
+  "description": "Sistema de Gestión de Cuentas Streaming & Bot de WhatsApp 24/7",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a1a",
+  "theme_color": "#7c3aed",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/vite.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
