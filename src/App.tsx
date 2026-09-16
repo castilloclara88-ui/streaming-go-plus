@@ -1733,25 +1733,6 @@ export const App: React.FC = () => {
             </div>
             <div className="flex items-center space-x-2 shrink-0">
               <button
-                onClick={handleRefrescarDatos}
-                disabled={isRefreshing}
-                className="bg-emerald-600 hover:bg-emerald-500 text-white px-2.5 py-1 rounded-lg text-[11px] font-bold border border-emerald-400/40 flex items-center space-x-1 shadow transition active:scale-95"
-                title="Refrescar y actualizar datos en tiempo real"
-              >
-                <span className={isRefreshing ? "animate-spin" : ""}>🔄</span>
-                <span>{isRefreshing ? 'Actualizando...' : 'Refrescar'}</span>
-              </button>
-              <button
-                onClick={() => setShowSaaSModal(true)}
-                className="bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white font-bold text-[11px] px-2.5 py-1 rounded-lg shadow flex items-center space-x-1 border border-purple-400/40"
-              >
-                <span>💳</span>
-                <span>Mi Suscripción SaaS</span>
-                <span className="bg-emerald-500 text-black text-[9px] font-black px-1.5 py-0.2 rounded-full uppercase ml-1">
-                  {(userSession as any).plan_saas || 'Prueba (3 Días)'}
-                </span>
-              </button>
-              <button
                 onClick={handleCerrarSesion}
                 className="bg-neutral-800 hover:bg-neutral-700 text-neutral-300 hover:text-white px-2 py-1 rounded-lg text-[11px] font-semibold border border-neutral-700"
                 title="Cerrar Sesión"
